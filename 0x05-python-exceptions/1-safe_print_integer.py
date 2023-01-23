@@ -4,7 +4,7 @@ def safe_print_integer(value):
     Args:
         value (int) - the integer to print
     Returns:
-        If a Valuerror occurs - False
+        If a ValueError occurs - False
         Otherwise - True
     """
     try:
