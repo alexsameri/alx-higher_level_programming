@@ -1,5 +1,12 @@
 #!/usr/bin/python3
 def safe_print_integer(value):
+    """print an integer with "{:d}".format()
+    Args:
+        int(value) - the integer to print
+    Returns:
+        If a Valuerror occurs - False
+        Otherwise - True
+    """
     try:
         print("{:d}".format(value))
         return (True)
