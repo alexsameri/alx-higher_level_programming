@@ -8,13 +8,13 @@ Usage
 ::
 
     >>> say_my_name = __import__('3-say_my_name').say_my_name
-    >>> say_my_name("Brennan", "Baraban")
-    My name is Brennan Baraban
+    >>> say_my_name("Alex", "Sameri")
+    My name is Alex Sameri
 
 ::
 
-    >>> say_my_name("Cornelius Maxwell", "Jones II")
-    My name is Cornelius Maxwell Jones II
+    >>> say_my_name("Alex Sameri", "Kamwanga")
+    My name is Alex Sameri Kamwanga
 
 The parameter ```last_name``` is optional. If no last name is provided,
 an empty string is printed instead.
@@ -61,3 +61,4 @@ At least one name must be provided.
     >>> say_my_name()
     Traceback (most recent call last):
     TypeError: say_my_name() missing 1 required positional argument: 'first_name'
+
