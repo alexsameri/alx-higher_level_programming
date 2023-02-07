@@ -19,6 +19,7 @@ class Rectangle(BaseGeometry):
 
     def area(self):
         """Return the area of the triangle"""
+        return self.__width * self.__height
 
     def __str__(self):
         """Return the print() and str() representation of a rectangle."""
